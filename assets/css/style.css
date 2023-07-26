@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+}
+
+.input {
+  width: 50vw;
+  height: 3rem;
+  border-radius: 5px;
+  border: 2px solid #5f5353;
+  /* margin: 0 2em 0 2em; */
+  padding: 0 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.form {
+  margin: auto;
+}
+
+button,
+.plan-btn {
+  background-color: #1a0792;
+  color: #fff;
+  /* padding: 1em 2em 1em 2em; */
+  width: 5rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+button:hover,
+#plan-btn:hover {
+  background-color: #1a0792e0;
+}
+
+.container {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activitiesTodo {
+  padding: 1em 0 0 0;
+}
+
+.del-btn,
+.edit-btn {
+  margin: 0 0.5em 0 0.5rem;
+  border: none;
+}
+
+.del-btn {
+  background-color: red;
+  color: #fff;
+}
+.del-btn:hover {
+  background-color: rgba(175, 11, 11, 0.895);
+  color: #fff;
+  border: none;
+}
+
+.edit-btn {
+  background-color: #040404;
+  color: #fff;
+}
+.edit-btn:hover {
+  background-color: #090101c8;
+  color: #fff;
+  border: none;
+}
